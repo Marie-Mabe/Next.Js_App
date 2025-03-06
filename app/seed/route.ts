@@ -31,7 +31,7 @@ async function seedUsers() {
   );
 
   return insertedUsers;
-};
+}
 
 async function seedInvoices() {
   await sql`
@@ -55,7 +55,7 @@ async function seedInvoices() {
   );
 
   return insertedInvoices;
-};
+}
 
 async function seedCustomers() {
   await sql`
@@ -118,4 +118,4 @@ export async function GET() {
   } catch (error) {
     return Response.json({ error }, { status: 500 });
   };
-};
+}

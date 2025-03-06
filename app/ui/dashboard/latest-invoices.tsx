@@ -60,4 +60,4 @@ export default async function LatestInvoices() {
       </div>
     </div>
   );
-};
+}

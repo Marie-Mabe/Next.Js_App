@@ -131,4 +131,4 @@ export async function deleteInvoice(id: string) {
       }
       throw error;
     };
-  };
+  }
