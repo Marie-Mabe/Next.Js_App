@@ -9,4 +9,4 @@ export const metadata: Metadata = {
 
 export default function Page() {
     return <p>Customers Page</p>;
-  }
+  };

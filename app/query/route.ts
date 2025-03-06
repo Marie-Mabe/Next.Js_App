@@ -19,5 +19,5 @@ export async function GET() {
    	return Response.json(await listInvoices());
    } catch (error) {
   	return Response.json({ error }, { status: 500 });
-   }
-}
+   };
+};
